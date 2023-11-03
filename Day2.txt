@@ -1,0 +1,31 @@
+1)Document and window object difference:
+        Document object:
+•	It represents a web page that is loaded in the browser.
+•	It is the object of window property.
+•	We can access the element in the html page by accessing the object.
+•	We can do dynamic things with the help of document.
+•	we can access document by using the keyword called "window.document" or "document".
+
+           Syntax:
+                       document.property;
+           some property of document are below:
+                    //body:          It returns the contents of the body element.
+                    //activeElement: It returns the currently active elements in the document.
+                    //URL:           It returns the complete URL of the document.
+
+
+
+      Window Object:
+•	The window object is the toop most object of the DOM(Document Object Moudele)
+•	It is the object of browser.
+•	It represents the browser window or frame that contents of the webpage.
+•	Whenever a window appears on teh screen to display the contents of the document,the window 
+                object is created.
+
+       Syntax:
+                   window.property;
+       some property of window are below:
+                  //Closed:         It holds a Boolean value that represents whether the window is closed or not.
+                  //History:        It provides information on the URLs visited in the current window.
+                  //Location:       It contains the URL of the current window.
+                  //Window:         It returns the current window or frame.
